@@ -1,5 +1,5 @@
 body {
-    background-color: #fffaf0; 
+    background-color: #ffce6d; 
     font-family: "Gill Sans", sans-serif;
     text-align: center;
     margin: 0;
@@ -24,7 +24,7 @@ img {
     height: auto;
     display: block;
     margin: 20px auto;
-    background-color: lightgoldenrodyellow; 
+    background-color: rgb(251, 251, 187); 
     padding: 10px;
     border-radius: 8px;
 }
