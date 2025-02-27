@@ -14,7 +14,7 @@ h1 {
 
 p {
     color: #555;
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     margin: 20px 0;
     line-height: 1.5;
 }
@@ -24,14 +24,14 @@ img {
     height: auto;
     display: block;
     margin: 20px auto;
-    background-color: rgb(251, 251, 187); 
+    background-color: #e3800e; 
     padding: 10px;
     border-radius: 8px;
 }
 
 .back-link a {
     text-decoration: none;
-    color: #e3800e;
+    color: rgb(255, 254, 194);
     font-weight: bold;
     font-size: 1.2rem;
 }
