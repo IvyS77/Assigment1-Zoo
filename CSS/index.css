@@ -15,7 +15,7 @@ body::before {
     left: 0;
     right: 0;
     bottom: 0;
-    background: url('img/home.jpg') no-repeat center center;
+    background: url('../img/home.jpg') no-repeat center center;
     background-size: cover;
     opacity: 0.5; 
     z-index: -1;
