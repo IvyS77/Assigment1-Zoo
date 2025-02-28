@@ -33,12 +33,11 @@ h3 {
 }
 
 .home-photo {
-  width: 80%;
-  max-width: 1200px;
-  height: 70vh;
-  margin: 40px auto; 
+  width: 100%;
+  height: calc(100vh - 120px); 
+  margin: 0 auto;
   background: url('../img/home.jpg') no-repeat center center;
-  background-size: contain;
-  background-color: #ffe6f2; 
-  opacity: 1; 
+  background-size: auto 100%;
+  opacity: 1;
+  background-color: #ffe6f2;
 }
