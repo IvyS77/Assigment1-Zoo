@@ -5,21 +5,35 @@ html, body {
 }
 
 body {
-  background-color: #ffe6f2;
   font-family: "Gill Sans", sans-serif;
+  background-color: #ffe6f2; 
   text-align: center;
+  position: relative;
+  z-index: 1;
+  min-height: 100vh;
+}
+
+body::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+
+  background: url('../img/home.jpg') no-repeat center center;
+  background-size: cover; 
+  opacity: 0.85;           
+  z-index: -0.5;            
 }
 
 h1 {
-  margin: 20px 0 10px;  
-  font-size: 3rem;
+  margin-top: 50px;
   color: #333;
 }
 
 h3 {
-  margin: 0 0 20px;    
-  font-size: 1.8rem;
-  color: #206b40;
+  color: #666;
 }
 
 .link {
@@ -28,17 +42,14 @@ h3 {
 
 .link a {
   text-decoration: none;
-  color: rgb(232, 104, 164);
+  color: #0066cc;
   font-size: 1.5rem;
 }
 
-.home-photo {
-  width: 100%;
-  height: calc(100vh - 120px); 
-  margin: 0 auto;
-  background: url('../img/home.jpg') no-repeat center center;
-  background-size: cover;
-  background-position: center;
-  opacity: 1;
-  background-color: #ffe6f2;
+p {
+  font-size: 1.8rem;
+  line-height: 1.6;
+  color: #333;
+  margin: 20px;
+  text-align: justify;
 }
