@@ -24,13 +24,13 @@ h3 {
 }
 
 .home-photo {
-  width: 80%;
-  max-width: 800px;
+  width: 100%;
+  max-width: 1000px;
   height: 60vh;               
-  margin: 40px auto;          
+  margin: 60px auto;          
   background: url('../img/home.jpg') no-repeat center center;
   background-size: contain;   
-  opacity: 0.6;             
+  opacity: 1.0;             
 }
 
 
