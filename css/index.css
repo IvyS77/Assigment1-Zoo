@@ -42,8 +42,9 @@ p {
 .home-photo {
   width: 80%;
   max-width: 800px;
-  height: auto;
+  height: 60vh;              
   margin: 40px auto;  
   background: url('../img/home.jpg') no-repeat center center;
-  background-size: contain; 
+  background-size: contain;  
+  opacity: 0.6;              
 }
