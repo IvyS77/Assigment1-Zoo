@@ -25,14 +25,12 @@ h3 {
 
 .home-photo {
   width: 100%;
-  max-width: 1000px;
-  height: 60vh;               
-  margin: 60px auto;          
+  height: 100vh;               
+  background-color: #ffe6f2;   
   background: url('../img/home.jpg') no-repeat center center;
-  background-size: contain;   
-  opacity: 1.0;             
+  background-size: auto 100%;   
+  opacity: 0.7;              
 }
-
 
 .link {
   margin: 10px;
