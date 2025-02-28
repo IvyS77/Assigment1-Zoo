@@ -37,7 +37,8 @@ h3 {
   height: calc(100vh - 120px); 
   margin: 0 auto;
   background: url('../img/home.jpg') no-repeat center center;
-  background-size: auto 100%;
+  background-size: cover;
+  background-position: center;
   opacity: 1;
   background-color: #ffe6f2;
 }
