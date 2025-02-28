@@ -9,32 +9,30 @@ body {
   background-color: #ffe6f2; 
   text-align: center;
   position: relative;
-  z-index: 1;
+  z-index: 0;
   min-height: 100vh;
 }
 
 body::before {
   content: "";
   position: absolute;
-  top: 30px;     
-  left: 30px;    
-  right: 30px;   
-  bottom: 30px;  
+  top: 30px;
+  left: 30px;
+  right: 30px;
+  bottom: 30px;
   background: url('../img/home.jpg') no-repeat center center;
   background-size: cover; 
-  opacity: 0.6;           
-  z-index: 0;            
+  opacity: 0.7;           
+  z-index: 1;            
 }
 
 h1 {
   margin-top: 50px;
   color: #333;
-  font-size: 2.0rem;
 }
 
 h3 {
   color: #666;
-  font-size: 1.8rem;
 }
 
 .link {
@@ -43,14 +41,14 @@ h3 {
 
 .link a {
   text-decoration: none;
-  color: #0066cc;
-  font-size: 1.5rem;
+  color: #ed5bbe;
+  font-size: 1.2rem;
 }
 
 p {
-  font-size: 1.5rem;
+  font-size: 1.8rem;
   line-height: 1.6;
-  color: #333;
+  color: #258249;
   margin: 20px;
   text-align: justify;
 }
