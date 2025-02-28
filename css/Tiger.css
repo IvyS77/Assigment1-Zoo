@@ -1,5 +1,5 @@
 body {
-    background-color: #ffce6d; 
+    background-color: #ffffff; 
     font-family: "Gill Sans", sans-serif;
     text-align: center;
     margin: 0;
@@ -31,7 +31,7 @@ img {
 
 .back-link a {
     text-decoration: none;
-    color: rgb(255, 255, 255);
+    color: rgb(255, 180, 51);
     font-weight: bold;
     font-size: 1.2rem;
 }
