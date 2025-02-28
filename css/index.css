@@ -8,43 +8,46 @@ body {
   font-family: "Gill Sans", sans-serif;
   background-color: #ffe6f2;
   text-align: center;
+  min-height: 100vh;
 }
 
 h1 {
-  margin-top: 80px;
+  margin-top: 50px;
   color: #333;
-  font-size: 3rem;  
+  font-size: 3rem;
 }
+
 
 h3 {
   color: #206b40;
-  font-size: 1.8rem;  
-}
-
-.link {
-  margin: 20px;
-}
-
-.link a {
-  text-decoration: none;
-  color: rgb(232, 104, 164);
-  font-size: 1.5rem;
-}
-
-p {
-  font-size: 1.5rem;
-  line-height: 1.6;
-  color: #333;
-  margin: 20px;
-  text-align: justify;
+  font-size: 1.8rem;
 }
 
 .home-photo {
   width: 80%;
   max-width: 800px;
-  height: 60vh;              
-  margin: 40px auto;  
+  height: 60vh;               
+  margin: 40px auto;          
   background: url('../img/home.jpg') no-repeat center center;
-  background-size: contain;  
-  opacity: 0.6;              
+  background-size: contain;   
+  opacity: 0.6;             
+}
+
+
+.link {
+  margin: 10px;
+}
+
+.link a {
+  text-decoration: none;
+  color: rgb(232, 104, 164);
+  font-size: 1.2rem;
+}
+
+p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  color: #333;
+  margin: 20px;
+  text-align: justify;
 }
