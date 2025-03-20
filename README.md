@@ -1,6 +1,5 @@
-## Group Members
-
-- **Ivy Sun** (GitHub: [IvyS77](https://github.com/IvyS77))
+##
+**Ivy Sun** (GitHub: [IvyS77](https://github.com/IvyS77))
 
 ---
 
