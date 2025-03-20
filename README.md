@@ -1,5 +1,4 @@
 ## **Ivy Sun** (GitHub: [IvyS77](https://github.com/IvyS77))
-
 ---
 
 ## Assigment1-Zoo
